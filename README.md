@@ -1,6 +1,9 @@
 Ha Vien (k2202863)
+
 Vien.Ha@seamk.fi
+
 Differential And Integral calculus
+
 7/1/2024
 
 LIST OF THE EXERCISES
