@@ -7,7 +7,7 @@ k = 500000
 b = 100
 R = 0.1
 w_given = 100
-%GIVEN
+% GIVEN
 
 % My′′(t)+by′(t)+ky(t)=m R ω^2 sin(ωt), y(0) = 0,y′(0) = 0
 % a*y''(t)+b*y'(t)+c*y(t)=A*sin(w*t+theta)+B, y(0)=y0, x'(0)=y1
@@ -81,9 +81,11 @@ ylabel('paikka y(t)')
 K_w = @(w) 1 ./ sqrt((b .* w) .^ 2 + (c - a .* (w .^ 2)) .^2)
 A_w = @(w) m .* R .* w .* w
 
-w = 0:1:10 * sqrt(k / M)
+w = 0:0.1:10 * sqrt(k / M)
 figure(2)
-plot(w, A_w(w) .* K_w(w),'blue', 'linewidth', 1.5)
+hold
+plot(100, A_w(100) .* K_w(100), 'r.', 'markersize', 15)
+plot(w, A_w(w) .* K_w(w), 'blue', 'linewidth', 1.5)
 grid
 xlabel('kulmanopeus \omega')
 ylabel('y(t ):n amplitudi')
