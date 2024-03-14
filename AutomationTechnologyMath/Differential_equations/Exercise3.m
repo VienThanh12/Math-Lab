@@ -1,7 +1,7 @@
 clear
 close all
 
-%GIVEN
+% GIVEN
 
 R = 1
 L = 2
