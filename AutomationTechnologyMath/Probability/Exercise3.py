@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 K = 100000
 
 n = 10
