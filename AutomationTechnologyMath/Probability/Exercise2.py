@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 #%% simulation
 K = 100000#simulation rounds
 n = 100 #number of persons
