@@ -5,4 +5,4 @@ Laplace transform: 4/4
 
 Probability: 5/16
 
-Total of Exercises: 15/36
+Total of Exercises: 16/36
