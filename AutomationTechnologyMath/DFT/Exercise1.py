@@ -61,7 +61,7 @@ plt.plot(ts,y,'ro')
 plt.grid()
 plt.legend(fontsize = 14)
 plt.xlabel('time',fontsize=14)
-plt.title('A = ' + str(A_ft) + ', f = '+ str(f_ft) + ', $\phi$ = '+str(phi_ft) + ', N = ' + str(N_ft)+ ', $f_s$ = '+ str(f_s_ft))
+plt.title('A = ' + str(A_ft) + ', f = '+ str(f_ft) + ', $\phi$ = '+str(phi_ft) + ', N = ' + str(N_ft)+ ', $f_s$ = '+ str(fs))
 
 plt.subplot(212)
 plt.bar(np.hstack((0,f)),np.hstack((a0,A)),edgecolor='k',zorder=2)
