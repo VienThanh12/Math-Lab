@@ -3,7 +3,7 @@ Differential Equations: 6/6
 
 Laplace transform: 4/4
 
-Probability: 15/16
+Probability: 16/16
 
 DFT: 2/2
 
@@ -13,4 +13,4 @@ Kmeans_and_DBSCAN_exercises: 0/2
 
 Kalman filter: 0/4
 
-Total of Exercises: 27/36
+Total of Exercises: 28/36
