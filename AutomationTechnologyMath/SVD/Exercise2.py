@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from sklearn import datasets
 import numpy as np
 #%%
-X,y=datasets.load_wine(return_X_y=True)
+#X,y=datasets.load_wine(return_X_y=True)
 
 #X = 178x13-matrix, datapoints as rows
 #y=0,1,2=viini Barolo,Grignolino,Barbera
