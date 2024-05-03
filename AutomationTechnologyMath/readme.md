@@ -7,10 +7,10 @@ Probability: 16/16
 
 DFT: 2/2
 
-SVD and PCA exercises: 0/2
+SVD and PCA exercises: 1/2
 
 Kmeans_and_DBSCAN_exercises: 0/2
 
 Kalman filter: 0/4
 
-Total of Exercises: 28/36
+Total of Exercises: 29/36
