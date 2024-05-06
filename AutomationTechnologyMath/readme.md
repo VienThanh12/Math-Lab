@@ -11,6 +11,6 @@ SVD and PCA exercises: 2/2
 
 Kmeans_and_DBSCAN_exercises: 0/2
 
-Kalman filter: 0/4
+Kalman filter: 2/4
 
-Total of Exercises: 30/36
+Total of Exercises: 32/36
